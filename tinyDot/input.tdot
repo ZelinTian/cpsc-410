@@ -1,0 +1,4 @@
+Set Author "Super Team"
+Create String “my name is XXXX" Called string1
+Set the title of s1 "introduction"
+Create section called s1
