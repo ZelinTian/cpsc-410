@@ -15,8 +15,10 @@ public class SECTION_CONTENT extends STATEMENT {
     private List<SECTION> subsection = new ArrayList<SECTION>();
     @Override
     public void parse() {
+        tokenizer.getNext();
+        tokenizer.getNext();
         content = tokenizer.getNext();
-        System.out.println("asc" + content);
+        System.out.println("string content :" + content);
 //        tokenizer.getAndCheckNext("Called");
         tokenizer.getNext();
         tokenizer.getNext();

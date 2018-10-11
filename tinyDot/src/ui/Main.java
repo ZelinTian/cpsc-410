@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
-        List<String> literals = Arrays.asList("Hello!","Thanks!","please","make me a", "called", "connect","to","Set","Author","Create","String","Called", "the title of","\"");
+        List<String> literals = Arrays.asList("Hello!","Thanks!","please","make me a", "called", "connect","to","Set","Author","Create","String","Called", "the title of","\"","Date","Title");
         Tokenizer.makeTokenizer("input.tdot",literals);
         PROGRAM p = new PROGRAM ();
         p.parse();
